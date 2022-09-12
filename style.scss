@@ -1,0 +1,23 @@
+*,
+body {
+  padding: 0px;
+  margin: 0;
+}
+
+body {
+  background-image: url("./assets/game-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.options {
+  margin: auto;
+  margin-top: 100px;
+  text-align: center;
+  .new_game {
+    opacity: 0.5;
+  }
+  .new_game:hover {
+    width: 24%;
+    opacity: 1;
+  }
+}

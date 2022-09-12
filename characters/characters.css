@@ -1,0 +1,25 @@
+body {
+  background-image: url("../assets/game-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.character_photos {
+  margin: auto;
+  display: inline-block;
+}
+
+.choose_your_hero {
+  margin-block: 90px;
+  display: flex;
+  justify-content: center;
+}
+.characters {
+  text-align: center;
+}
+#hero1 {
+  opacity: 0.5;
+}
+#hero1:hover {
+  width: 13%;
+  opacity: 1;
+}

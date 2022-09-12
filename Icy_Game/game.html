@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Icy Tower</title>
+    <link rel="stylesheet" href="game.css" />
+  </head>
+
+  <body>
+    <div class="game">
+      <aside class="game-score">
+        <div>
+          <h1>SCORE</h1>
+          <span>Generate score here</span>
+        </div>
+      </aside>
+    </div>
+    <canvas id="myGameCanvas"></canvas>
+    <div id="gameOverModal" class="gameOverModal">
+      <div class="modal-content">
+        <div class="score-content">
+          <img src="../assets/your_score.png" width="80%" height="100" alt="" />
+          <div id="gameoverscore"></div>
+        </div>
+        <form>
+          <input class="playerName" type="text" placeholder="Enter your name" />
+          <input class="btn" type="button" value="OK" />
+        </form>
+      </div>
+    </div>
+
+    <script src="./game.js"></script>
+  </body>
+</html>
