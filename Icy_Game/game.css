@@ -1,118 +1,137 @@
 #myGameCanvas {
-    width: 50%;
-    max-height: 100%;
-    padding: 0;
-    display: block;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 20%;
-    background-repeat: repeat;
-    background-size: cover;
-    background-position: center;
+  width: 50%;
+  max-height: 100%;
+  padding: 0;
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 20%;
+  background-repeat: repeat;
+  background-size: cover;
+  background-position: center;
 }
 body {
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
-    background-image: url("../assets/background.jpg");
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  background-image: url("../assets/background.jpg");
 }
 
-.gameOverModal
- {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.4);
+.gameOverModal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .gameOverModal .modal-content {
-    background-image: url("../start\ screen/BG.png");
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    border-radius: 40px;
-    position: absolute;
-    width: 47%;
-    right: 25%;
+  background-image: url("../start\ screen/BG.png");
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  border-radius: 40px;
+  position: absolute;
+  width: 47%;
+  right: 25%;
 }
 
 .closeModal {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
 }
 
 .closeModal:hover,
 .closeModal:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 .score-content,
 .gameOverModal .modal-content form {
-    text-align: center;
+  text-align: center;
 }
 
 .score-content div {
-    font-size: 30px;
+  font-size: 30px;
+  font-family: "Bungee Spice", cursive;
+}
+
+.score-content h1 {
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+  font-weight: 700;
+  font-family: "Bungee Spice", cursive;
 }
 
 .gameOverModal .modal-content form input {
-    display: block;
-    margin: 20px auto;
+  display: block;
+  margin: 20px auto;
 }
 
 input.playerName {
-    width: 200px;
-    height: 35px;
-    border-radius: 31px;
-    border: 1px solid #ccc;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-    outline: none;
+  width: 200px;
+  height: 35px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  outline: none;
+  color: #315bff;
+  font-family: "Russo One", sans-serif;
 }
 
 .btn {
-    min-width: 100px;
-    height: 50px;
-    border-radius: 30px;
-    border: 1px solid #ccc;
-    color: #315bff;
-    outline: none;
-    font-size: 20px;
+  min-width: 100px;
+  height: 50px;
+  border-radius: 12px;
+  border: 1px solid #ccc;
+  color: #315bff;
+  outline: none;
+  font-family: "Bungee Spice", cursive;
+  font-size: 20px;
 }
 
 .btn:hover,
 .btn:active {
-    box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.5);
-    cursor: pointer;
+  box-shadow: 0 0 13px 3px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
 }
 
 .btn.exit {
-    margin-top: 15px;
+  margin-top: 15px;
 }
 .game {
-    display: flex;
-    justify-content: space-between;
-    height: 100vh;
-    background-image: url('../assets/game-background.jpg');
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+  background-image: url("../assets/game-background.jpg");
 }
 .game-score {
-    text-align: center;
-    align-self: center;
-    margin-left: 90px;
-    color: aliceblue;
+  text-align: center;
+  align-self: center;
+  margin-left: 90px;
+  color: aliceblue;
+}
+.game-score h1 {
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+  font-weight: 700;
+  font-family: "Bungee Spice", cursive;
 }
 .game-score span {
-    font-size: 35px;
+  font-size: 35px;
+  font-family: "Bungee Spice", cursive;
 }

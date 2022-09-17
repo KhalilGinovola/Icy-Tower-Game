@@ -13,6 +13,13 @@ body {
   display: flex;
   justify-content: center;
 }
+.choose_your_hero h1 {
+  text-align: center;
+  font-size: 60px;
+  color: aliceblue;
+  font-weight: 700;
+  font-family: 'Bungee Spice', cursive;
+}
 .characters {
   text-align: center;
 }
